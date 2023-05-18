@@ -1,0 +1,1 @@
+const userNumber = prompt("Digita un numero di 4 cifre")
