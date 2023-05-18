@@ -1,8 +1,9 @@
 const emptyBox = []
-const userNumber = prompt("Inserisci un numero")
 
-
-if (userNumber % 2 !== 0) {
+let n = 6
+for (let i = 0; i < n; i++) { 
+  userNumbers = prompt("inserisci un numero")
+  if (userNumbers % 2 !== 0) {
     emptyBox.push(userNumber)
     console.log(emptyBox)
     console.log("Hai riempito la scatola")
@@ -10,3 +11,6 @@ if (userNumber % 2 !== 0) {
     console.log(emptyBox)
     console.log("La scatola è vuota")
 }
+}
+
+
